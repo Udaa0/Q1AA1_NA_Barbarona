@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto:wght@100&family=Shadows+Into+Light&family=Viga&family=Young+Serif&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Navbar {
+    border: 7px solid black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
+#Logo img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 30px;
+}
+#links {
+    display: inline;
+}
+#links a {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    font-family: 'Shadows Into Light', cursive;
+    text-decoration: none;
+    border-radius: 10px;
+    float: right;
+    margin-right: 20px;
+    color: black;
+    opacity: .70;
+}
+.Navbar #links a:hover{ 
+    opacity: 1; transition: 0.4;
+}
+#G{background-color:rgba(255, 255, 255, 0.943);}
+#H{background-color: rgba(255, 255, 255, 0.943);}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.banner {
+    background-repeat: no-repeat;
+    background-image: url(Background.jpg);
+    background-size: 1220px;
+    position: fixed;
+    margin-top: 60px;
+    height: 1000px;
+    width: 1300px;
+}
+.banner h1{
+    margin-top: 100px;
+    font-family: 'Pangolin', cusrive;
+    font-size: 50px;
+}
+p {
+    font-family: 'Pangolin', cursive;
+}
+#Yes a{
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    font-family: 'Shadows Into Light', cursive;
+    text-decoration: none;
+    border-radius: 10px;
+    float: left;
+    color: rgba(255, 255, 255, 0.943);
+    opacity: .80;
+}
+.banner #Yes a:hover{
+    opacity: 1; transition: 0.4;
+}
+    #G1{background-color: black;}
+.Footer {
+    border: 20px solid black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
+.paragraph {
+    color: white;
+    float: left;
+    margin-top: 10px;
+}
+#paragraph2 {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin: 1px;
+    padding: 1px;
+}
+.column{
+    float: left;
+    width: 20%;
+    padding: 2px;
+    margin: 20px;
+    margin-top: 0px;
+}
+.column2{
+    float: left;
+    width: 20%;
+    padding: 2px;
+    margin: 20px;
+    margin-top: 7px;
+}
+h1 {
+    padding: 80px;
+    font-family: 'Pangolin', cursive;
+    font-size: 50px;
+}
+*{
+    background-color: black;
+}
+.Error {
+    background-repeat: no-repeat;
+    background-image: url(Secret.jpg);
+    background-size: 1050px;
+    height: 600px;
+    width: 1050px;
+    margin-left: 58px;
+}

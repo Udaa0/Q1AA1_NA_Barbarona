@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+     @import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto:wght@100&family=Shadows+Into+Light&family=Viga&family=Young+Serif&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Navbar {
+    border: 7px solid black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
+#Logo img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 30px;
+}
+#links {
+    display: inline;
+}
+#links a {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    font-family: 'Shadows Into Light', cursive;
+    text-decoration: none;
+    border-radius: 10px;
+    float: right;
+    margin-right: 20px;
+    color: black;
+    opacity: .70;
+}
+.Navbar #links a:hover{ 
+    opacity: 1; transition: 0.4;
+}
+#G{background-color:rgba(255, 255, 255, 0.943);}
+#H{background-color: rgba(255, 255, 255, 0.943);}
+.column{
+    float: left;
+    width: 20%;
+    padding: 2px;
+    margin: 20px;
+    margin-top: 0px;
+}
+.column2{
+    float: left;
+    width: 20%;
+    padding: 2px;
+    margin: 20px;
+    margin-top: 7px;
+}
+h1 {
+    padding: 80px;
+    font-family: 'Pangolin', cursive;
+    font-size: 50px;
+}
+.Footer {
+    border: 20px solid black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
+.paragraph {
+    color: white;
+    float: left;
+    margin-top: 10px;
+}
+#paragraph2 {
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin: 1px;
+    padding: 1px;
+}
+
+
+
+</style>
+</head>
+<body>
+    <div class="Navbar">
+        <div id="links"><a href="gallery.html" id="G">Gallery</a></div>
+        <div id="links"><a href="index.html" id="H">Home</a></div>
+        <div id="Logo">
+            <img src="Logo.jpg">
+        </div>
+    </div>
+    <div class="row">
+        <h1>Gallery</h1>
+        <div class="column"><img src="Pic1.png" height="200" width="185"></div>
+        <div class="column"><img src="Pic2.jpg" height="200" width="185"></div>
+        <div class="column"><img src="Pic3.png" height="200" width="185"></div>
+        <div class="column"><img src="Pic4.png" height="200" width="185"></div>
+        <div class="column2"><img src="Pic5.png" height="200" width="185"></div>
+        <div class="column2"><img src="Pic6.png" height="200" width="185"></div>
+        <div class="column2"><img src="Pic7.png" height="200" width="185"></div>
+    </div>
+    </div>
+    <div class="Footer">
+        <div class="paragraph">
+        <p>All rights reserved 2023</p>
+        </div>
+        <div id="paragraph2"><a href="https://discord.com/channels/586425126329778176"><img src="Discord.png" height="40" width="42" style="border-radius: 50%;"></a></div>
+        <div id="paragraph2"><a href="https://github.com/Udaa0"><img src="Github.png" height="40" width="42" style="border-radius: 50%;"></a></div>
+        <div id="paragraph2"><a href="https://www.facebook.com/profile.php?id=100008671878728&mibextid=LQQJ4d"><img src="Facebook.png" height="40" width="42" style="border-radius: 50%;"></a></div>
+    </div>
+    <link rel="stylesheet" href="style.css">
+</body>
